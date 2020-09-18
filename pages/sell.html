@@ -1,57 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../styles/fb.css">
-</head>
-<body style="background-color:lightblue;">
+    <link rel="stylesheet" href="../styles/sell.css" />
+  </head>
+  <body>
+    <h1>BUY/SELL/RENT</h1>
     <div>
-        <input type="text" placeholder="Search.." style="width: 98%; padding: 20px; left: 10%;">
+      <input
+        style="
+          outline: none;
+          min-width: 30rem;
+          padding: 1rem 2rem;
+          font-size: 1.2rem;
+          border-radius: 30px;
+          margin: 1% 7% 2%;
+        "
+        type="text"
+        placeholder="Search.."
+      />
+      <button
+        id="btn"
+        style="
+          background-color: #00a8cc;
+          border-radius: 30px;
+          padding: 20px 15px;
+        "
+      >
+        <a
+          href="/pages/sell.html"
+          style="
+            color: #000;
+
+            font-size: 1.2rem;
+            text-decoration: none;
+          "
+          >ADD YOU ITEM</a
+        >
+      </button>
     </div>
 
-   
-        <div >
-            <button id="btn" style="background-color: black; width: 100%; padding: 20px 15px;"><a href="/pages/sell.html" style="color: antiquewhite; text-align: center;" >ADD YOU ITEM</a></button>
+    <div></div>
 
+    <div class="card">
+      <div class="header">
+        <div class="options"></div>
+        <img class="logo" src="../images/gate.jpg" />
+      </div>
+
+      <div class="content">
+        <p>FOR SALE: GATE BOOKS <br />...See More</p>
+        <input type="text" placeholder="Comment.." />
+      </div>
+
+      <div class="card">
+        <div class="header">
+          <div class="options"></div>
+          <img class="logo" src="../images/edg.jpg" />
+        </div>
+
+        <div class="content">
+          <p>FOR SALE: ENGINEERING DRAWING TOOLS <br />...See More</p>
+          <input type="text" placeholder="Comment.." />
         </div>
 
         <div class="card">
-            <div class="header">
-              <div class="options"></div>
-              <img class="logo" src="../images/gate.jpg" />
-            </div>
-              
-            
-            <div class="content">
-              <p>FOR SALE: GATE BOOKS <br>...See More</p>
-              <input type="text" placeholder="Comment..">
-            </div>
-          
-            <div class="card">
-                <div class="header">
-                  <div class="options"></div>
-                  <img class="logo" src="../images/edg.jpg"  />
-                </div>
-                  
-                
-                <div class="content">
-                  <p>FOR SALE: ENGINEERING DRAWING TOOLS <br>...See More</p>
-                  <input type="text" placeholder="Comment..">
-                </div>
-    
-    
-            <div class="card">
-            <div class="header">
-              <div class="options"></div>
-              <img class="logo" src="../images/novels.jpg" />
-            </div>
-              
-            
-            <div class="content">
-              <p>FOR SALE: NOVELS <br>...See More</p>
-              <input type="text" placeholder="Comment..">
-            </div>
-</body>
+          <div class="header">
+            <div class="options"></div>
+            <img class="logo" src="../images/novels.jpg" />
+          </div>
+
+          <div class="content">
+            <p>FOR SALE: NOVELS <br />...See More</p>
+            <input type="text" placeholder="Comment.." />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

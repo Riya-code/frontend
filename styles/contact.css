@@ -1,0 +1,34 @@
+body {
+  background: #000;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #00a8cc;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.conatiner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contact {
+  min-width: 20rem;
+  border: 2px solid #00a8cc;
+  padding: 3rem;
+  margin: 3% 7%;
+}
+h1 {
+  font-size: 4rem;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+.contact-text {
+  font-size: x-large;
+  font-weight: 200;
+}
+
+img {
+  height: 20rem;
+  width: auto;
+}

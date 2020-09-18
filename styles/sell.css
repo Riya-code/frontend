@@ -1,0 +1,18 @@
+body {
+  background-color: #000;
+  text-align: center;
+  color: #00a8cc;
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+}
+.content p {
+  font-size: 1.4rem;
+}
+.content input {
+  outline: none;
+  max-width: 30rem;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  margin: 1% 7% 2%;
+}
