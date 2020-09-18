@@ -1,3 +1,7 @@
+body{
+  font-family: 'Poppins', sans-serif !important;
+}
+
 *, *:before, *:after {
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
@@ -25,17 +29,31 @@ body {
   margin-bottom:18px;
 }
 
-.logo {
-  /*display:block;*/
-  float:left;
-  margin-right:8px;
-  
-  width:500px;
-  height:450px;
+input{
+  margin-bottom: 2rem;
+  border:none;
+  border-bottom: solid #121212 .05rem;
+  width: 70%;
 }
 
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
+.card{
+  margin-left:10%;
+  margin-right: 10%;
+  margin-bottom: 2rem;
+  border-radius: 20px;
+}
 
+.card:hover{
+  box-shadow: .05rem .1rem 1rem grey;
+  transition: .2s;
+}
 
 
 
@@ -54,10 +72,6 @@ body {
 
 .content {
   clear:both;
-  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size:14px;
   line-height: 1.40;
 }
-
-
-
